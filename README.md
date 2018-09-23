@@ -18,16 +18,12 @@ Tested with:
 
 Setup:
 1. Install EHID and EHID_XML_B737. Enter the license information you got from the EHID developers.
-1.1. You can confirm everything is working as expected by opening EHID from your task bar. It should show the panels connect to your PC.
-If it doesn't show any device connected, your license is probably not installed correctly. A restart of EHID might help.	
-		
+	- You can confirm everything is working as expected by opening EHID from your task bar. It should show the panels connect to your PC.
+	- If it doesn't show any device connected, your license is probably not installed correctly. A restart of EHID might he	
 2. Install ExtPlane and FlyWithLua
-
 3. Copy the .lua files from the "Scripts" folder to "...\X-Plane 11\Resources\plugins\FlyWithLua\Scripts"
-
-3.1 After this step, all switch guards in the virtual cockpit should open automatically. If this doesn't happen, there is probably something wrong with your FlyWithLua installation
-
+	- After this step, all switch guards in the virtual cockpit should open automatically.
+	- If this doesn't happen, there is probably something wrong with your FlyWithLua installation
 4. Run ExtPlane_EHID.exe
-
-4.1 You should see every input/output in the monitor.
+	- you should see every input/output in the monitor.
 	
