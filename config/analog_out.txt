@@ -1,0 +1,19 @@
+//EHID_ID,EHID_min,EHID_max,Dataref,updateRate,Dref_min,Dref_max
+//Update rate ist the same for each dataref
+//Flaps
+50A81001;35;142;sim/flightmodel2/controls/flap1_deploy_ratio;0.005;0;0.025
+50A81001;142;270;sim/flightmodel2/controls/flap1_deploy_ratio;0.005;0.025;0.05
+50A81001;270;390;sim/flightmodel2/controls/flap1_deploy_ratio;0.005;0.05;0.125
+50A81001;390;470;sim/flightmodel2/controls/flap1_deploy_ratio;0.005;0.125;0.25
+50A81001;470;560;sim/flightmodel2/controls/flap1_deploy_ratio;0.005;0.25;0.375
+50A81001;560;660;sim/flightmodel2/controls/flap1_deploy_ratio;0.005;0.375;0.625
+50A81001;660;745;sim/flightmodel2/controls/flap1_deploy_ratio;0.005;0.625;0.75
+50A81001;745;830;sim/flightmodel2/controls/flap1_deploy_ratio;0.005;0.75;1
+//APU
+10F81001;0;576;laminar/B738/electrical/apu_temp;2;0;100
+10F81001;577;900;laminar/B738/electrical/apu_temp;2;100;200
+//DuctPress
+10281001;0;592;laminar/B738/indicators/duct_press_L;1;0;60
+//CabTemp
+10381001;0;143;laminar/B738/zone_temp;1;0;20
+10381001;143;450;laminar/B738/zone_temp;1;20;60
