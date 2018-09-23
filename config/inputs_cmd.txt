@@ -266,10 +266,10 @@
 10601201;1;lua/hyd/eng1_on;once
 10601204;0;lua/hyd/eng2_off;once
 10601204;1;lua/hyd/eng2_on;once
-10601203;0;lua/hyd/elec1_off;once
-10601203;1;lua/hyd/elec1_on;once
-10601202;0;lua/hyd/elec2_off;once
-10601202;1;lua/hyd/elec2_on;once
+10601203;0;lua/hyd/elec2_off;once
+10601203;1;lua/hyd/elec2_on;once
+10601202;0;lua/hyd/elec1_off;once
+10601202;1;lua/hyd/elec1_on;once
 11401302;2;lua/eng/start_source_L;once
 11401302;1;lua/eng/start_source_B;once
 11401302;0;lua/eng/start_source_R;once
