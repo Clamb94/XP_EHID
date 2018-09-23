@@ -1,7 +1,9 @@
 # XP_EHID
 X-Plane &lt;-> EHID Interface
-
 Use at your own risk. 
+
+This software allows connection of EHID compatible hardware (mainly Cockpitsonic) with X-Plane.
+I'm only using with Cockpitsonic 737 panels and the Zibo737, but it should work with all panels and X-Plane aircrafts (some scripting required)
 
 Requirements: 
 - ExtPlane ( https://github.com/vranki/ExtPlane/releases )
