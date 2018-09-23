@@ -6,11 +6,11 @@ This software allows connection of EHID compatible hardware (mainly Cockpitsonic
 I'm only using with Cockpitsonic 737 panels and the Zibo737, but it should work with all panels and X-Plane aircrafts (some scripting required)
 
 Requirements: 
-- ExtPlane ( https://github.com/vranki/ExtPlane/releases )
-- FlyWithLua ( https://forums.x-plane.org/index.php?/files/file/38445-flywithlua-complete-edition-for-x-plane-11-windows-linux-mac-os-x-version/ )
+- [ExtPlane](https://github.com/vranki/ExtPlane/releases)
+- [FlyWithLua](https://forums.x-plane.org/index.php?/files/file/38445-flywithlua-complete-edition-for-x-plane-11-windows-linux-mac-os-x-version/)
 - X-Plane
-- Zibo737 ( https://forums.x-plane.org/index.php?/forums/topic/138974-b737-800x-zibo-mod-info-installation-download-links/ )
-- EHID + EHID XML B737 + get a EHID License ( http://www.uweschneider.de/en/EHID_endusers.php )
+- [Zibo737](https://forums.x-plane.org/index.php?/forums/topic/138974-b737-800x-zibo-mod-info-installation-download-links/)
+- [EHID + EHID XML B737 + get a EHID License](http://www.uweschneider.de/en/EHID_endusers.php)
 - Cockpitsonic (EHID) hardware
 
 Tested with:
