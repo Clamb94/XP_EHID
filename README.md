@@ -22,8 +22,10 @@ If it doesn't show any device connected, your license is probably not installed 
 2. Install ExtPlane and FlyWithLua
 
 3. Copy the .lua files from the "Scripts" folder to "...\X-Plane 11\Resources\plugins\FlyWithLua\Scripts"
+
 3.1 After this step, all switch guards in the virtual cockpit should open automatically. If this doesn't happen, there is probably something wrong with your FlyWithLua installation
 
 4. Run ExtPlane_EHID.exe
+
 4.1 You should see every input/output in the monitor.
 	
