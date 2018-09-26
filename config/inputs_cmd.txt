@@ -161,7 +161,7 @@
 10E02301;2;lua/dspl/SRC_ALL2;once
 10E01303;0;lua/dspl/CTRL_BOTH1;once
 10E01303;1;lua/dspl/CTRL_NORM;once
-10E01303;2;ua/dspl/CTRL_BOTH1;once
+10E01303;2;ua/dspl/CTRL_BOTH2;once
 10C01202;0;lua/elec/cab_util_off;once
 10C01202;1;lua/elec/cab_util_on;once
 10C01202;0;lua/elec/ife_off;once

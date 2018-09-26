@@ -50,7 +50,7 @@ x = x + 1
 sw_dref[x] = "laminar/B738/toggle_switch/dspl_ctrl_pnl"
 cmd[x][-1] = "lua/dspl/CTRL_BOTH1"
 cmd[x][0] = "lua/dspl/CTRL_NORM"
-cmd[x][1] = "lua/dspl/CTRL_BOTH1"
+cmd[x][1] = "lua/dspl/CTRL_BOTH2"
 inc_cmd[x] = "laminar/B738/toggle_switch/dspl_ctrl_pnl_right" 
 dec_cmd[x] = "laminar/B738/toggle_switch/dspl_ctrl_pnl_left"
 
