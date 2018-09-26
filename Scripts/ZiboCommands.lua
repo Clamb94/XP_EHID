@@ -47,6 +47,14 @@ inc_cmd[x] = "laminar/B738/toggle_switch/dspl_source_right"
 dec_cmd[x] = "laminar/B738/toggle_switch/dspl_source_left"
 
 x = x + 1
+sw_dref[x] = "laminar/B738/toggle_switch/dspl_ctrl_pnl"
+cmd[x][-1] = "lua/dspl/CTRL_BOTH1"
+cmd[x][0] = "lua/dspl/CTRL_NORM"
+cmd[x][1] = "lua/dspl/CTRL_BOTH1"
+inc_cmd[x] = "laminar/B738/toggle_switch/dspl_ctrl_pnl_right" 
+dec_cmd[x] = "laminar/B738/toggle_switch/dspl_ctrl_pnl_left"
+
+x = x + 1
 sw_dref[x] = "laminar/B738/toggle_switch/cab_util_pos"
 cmd[x][0] = "lua/elec/cab_util_off"
 cmd[x][1] = "lua/elec/cab_util_on"
