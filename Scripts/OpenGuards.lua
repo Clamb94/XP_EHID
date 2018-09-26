@@ -47,9 +47,6 @@ function check_dataref()
 	if cov12 == 0 then command_once("laminar/B738/toggle_switch/flt_ctr_A_cover") end
 	if cov13 == 0 then command_once("laminar/B738/toggle_switch/flt_ctr_B_cover") end
 	if cov14 == 0 then command_once("laminar/B738/toggle_switch/alt_flaps_cover") end
-	
-	command_once("laminar/B738/toggle_switch/cockpit_dome_dn")
-	command_once("laminar/B738/toggle_switch/cockpit_dome_dn")
 end
 
 check_dataref()
