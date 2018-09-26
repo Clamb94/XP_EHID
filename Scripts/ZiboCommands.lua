@@ -11,16 +11,22 @@ for i = 0, limit do
 end
 
 -- VARIABLES ---------DO NOT EDIT ABOVE THIS LINE-----------------------------------------
+--[[
+This Script generates X-Plane commands which move a (rotary)switch. This is mainly used for cockpit builders
+Each of the following blocks represents a switch. Look at the first block for a explanation.
+The variables behind "cmd[x]" will be generated and can be called by other programs
+The variables behind "inc_cmd" and "dec_cmd" need to be taken out of X-Plane. Use the "DataRefTool" to find the commands
+]]--
 
 logging = 1 -- show debug information in dev console
 
 x = 0
-sw_dref[x] = "laminar/B738/toggle_switch/vhf_nav_source"
-cmd[x][-1] = "lua/nav/VHF_BOTH1"
-cmd[x][0] = "lua/nav/VHF_NORM"
-cmd[x][1] = "lua/nav/VHF_BOTH2"
-inc_cmd[x] = "laminar/B738/toggle_switch/vhf_nav_source_rgt" 
-dec_cmd[x] = "laminar/B738/toggle_switch/vhf_nav_source_lft"
+sw_dref[x] = "laminar/B738/toggle_switch/vhf_nav_source" -- Dataref which holds the current switch position 
+cmd[x][-1] = "lua/nav/VHF_BOTH1" -- Command which moves the switch to dataref position -1 
+cmd[x][0] = "lua/nav/VHF_NORM"   -- Command which moves the switch to dataref position 0
+cmd[x][1] = "lua/nav/VHF_BOTH2"  -- Command which moves the switch to dataref position 1
+inc_cmd[x] = "laminar/B738/toggle_switch/vhf_nav_source_rgt" -- Command to move the switch one step. This should INcrease the dataref value of the switch
+dec_cmd[x] = "laminar/B738/toggle_switch/vhf_nav_source_lft" -- Command to move the switch one step. This should DEcrease the dataref value of the switch
 
 x = x + 1
 sw_dref[x] = "laminar/B738/toggle_switch/irs_source"
