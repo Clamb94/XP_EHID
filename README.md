@@ -44,3 +44,12 @@ Opens all switch guards (black/red). Basically required for XP_EHID
 	
 #### lockControls.lua
 Disables all primary flight controls (Elevator, Ailerons, Rudder) when the autopilot is active.
+
+### Todo
+
+- Fire Handles
+- Elec Panel
+- Power Management (Turning off displays etc.)
+- Background brightness control
+- Aft overhead (I don't own a cockpitsonic AFT overhead, please open an issue when needed)
+
