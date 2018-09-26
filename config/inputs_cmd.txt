@@ -142,7 +142,7 @@
 10801303;2;laminar/B738/toggle_switch/window_ovht_test_dn;begin
 10801303;0;laminar/B738/toggle_switch/window_ovht_test_up;begin
 //Land/FltAlt
-10103001;1;laminar/B738/knob/flt_alt_press_dn;once
+10103001;1;laminar/B738/knob/flt_alt_press_up;once
 10103001;-1;laminar/B738/knob/flt_alt_press_dn;once
 10103002;1;laminar/B738/knob/land_alt_press_up;once
 10103002;-1;laminar/B738/knob/land_alt_press_dn;once
