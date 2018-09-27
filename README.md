@@ -13,7 +13,8 @@ Requirements:
 - Cockpitsonic (EHID) hardware
 
 Tested with:
-- X-Plane 11.20
+- X-Plane 11.26
+- Zibo 737 3.30h
 
 Setup:
 1. Install EHID and EHID_XML_B737. Enter the license information you got from the EHID developers.
