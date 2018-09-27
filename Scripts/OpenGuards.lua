@@ -13,25 +13,10 @@
 	dataref("cov12", "laminar/B738/switches/flt_ctr_A_cover_pos", "readonly")
 	dataref("cov13", "laminar/B738/switches/flt_ctr_B_cover_pos", "readonly")
 	dataref("cov14", "laminar/B738/switches/alt_flaps_cover_pos", "readonly")
+	dataref("cov15", "laminar/B738/button_switch/cover_position", "readonly", 10)
+	dataref("cov16", "laminar/B738/switches/fdr_cover_pos", "readonly")
 
-function check_cover()
-		
-	if cov0 ~= 0 then cov0 = 1 end
-	if cov1 ~= 0 then cov1 = 1 end
-	if cov2 ~= 0 then cov2 = 1 end
-	if cov3 ~= 0 then cov3 = 1 end
-	if cov4 ~= 0 then cov4 = 1 end
-	if cov5 ~= 0 then cov5 = 1 end
-	if cov6 ~= 0 then cov6 = 1 end
-	if cov7 ~= 0 then cov7 = 1 end
-	if cov8 ~= 0 then cov8 = 1 end
-	if cov9 ~= 0 then cov9 = 1 end
-	if cov10 ~= 0 then cov10 = 1 end
-	if cov11 ~= 0 then cov11 = 1 end
-	if cov12 ~= 0 then cov12 = 1 end
-	if cov13 ~= 0 then cov13 = 1 end
-	if cov14 ~= 0 then cov14 = 1 end
-	
+function check_cover()	
 	if cov0 == 0 then command_once("laminar/B738/button_switch_cover00") end
 	if cov1 == 0 then command_once("laminar/B738/button_switch_cover01") end
 	if cov2 == 0 then command_once("laminar/B738/button_switch_cover02") end
@@ -47,6 +32,8 @@ function check_cover()
 	if cov12 == 0 then command_once("laminar/B738/toggle_switch/flt_ctr_A_cover") end
 	if cov13 == 0 then command_once("laminar/B738/toggle_switch/flt_ctr_B_cover") end
 	if cov14 == 0 then command_once("laminar/B738/toggle_switch/alt_flaps_cover") end
+	if cov15 == 0 then command_once("laminar/B738/button_switch_cover10") end
+	if cov16 == 0 then command_once("laminar/B738/toggle_switch/fdr_cover") end
 end
 
 check_cover()
