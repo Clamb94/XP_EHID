@@ -1,6 +1,5 @@
 # XP_EHID
 X-Plane &lt;-> EHID Interface
-Use at your own risk. 
 
 This software allows connection of EHID compatible hardware (mainly Cockpitsonic) with X-Plane.
 I'm only using with Cockpitsonic 737 panels and the Zibo737, but it should work with all panels and X-Plane aircrafts (some scripting required)
@@ -28,6 +27,16 @@ Setup:
 4. Run ExtPlane_EHID.exe
 	- you should see every input/output in the monitor.
 	
+	
+### Todo
+
+- Fire Handles
+- Elec Panel
+- Power Management (Turning off displays etc.)
+- Background brightness control
+- Aft overhead (I don't own a cockpitsonic AFT overhead, please open an issue when needed)
+
+	
 ## FlyWithLua Scripts
 
 I've included some useful FWL Scripts for homecockpits. Some are required for XP_EHID, some are not.
@@ -44,12 +53,4 @@ Opens all switch guards (black/red). Basically required for XP_EHID
 	
 #### lockControls.lua
 Disables all primary flight controls (Elevator, Ailerons, Rudder) when the autopilot is active.
-
-### Todo
-
-- Fire Handles
-- Elec Panel
-- Power Management (Turning off displays etc.)
-- Background brightness control
-- Aft overhead (I don't own a cockpitsonic AFT overhead, please open an issue when needed)
 
