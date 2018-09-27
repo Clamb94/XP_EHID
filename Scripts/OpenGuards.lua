@@ -14,7 +14,7 @@
 	dataref("cov13", "laminar/B738/switches/flt_ctr_B_cover_pos", "readonly")
 	dataref("cov14", "laminar/B738/switches/alt_flaps_cover_pos", "readonly")
 
-function check_dataref()
+function check_cover()
 		
 	if cov0 ~= 0 then cov0 = 1 end
 	if cov1 ~= 0 then cov1 = 1 end
@@ -49,5 +49,5 @@ function check_dataref()
 	if cov14 == 0 then command_once("laminar/B738/toggle_switch/alt_flaps_cover") end
 end
 
-check_dataref()
-do_sometimes("check_dataref()")
+check_cover()
+do_sometimes("check_cover()")
