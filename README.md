@@ -13,7 +13,8 @@ Requirements:
 - Cockpitsonic (EHID) hardware
 
 Tested with:
-- X-Plane 11.20
+- X-Plane 11.26
+- Zibo 737 3.30h
 
 Setup:
 1. Install EHID and EHID_XML_B737. Enter the license information you got from the EHID developers.
@@ -43,13 +44,13 @@ I've included some useful FWL Scripts for homecockpits. Some are required for XP
 Basically all of them can be used without XP_EHID as well.
 
 #### ZiboCommands.lua
-Required for use of XP_EHID. Can be used with other programs which execute X-Plane commands as well
+Required for use of XP_EHID. Can be used with other programs which execute X-Plane commands as well. Not required for SimVim users.
 	
 #### DomeLightOn.lua
 Automatically turns on the dome light
 	
 #### OpenGuards.lua
-Opens all switch guards (black/red). Basically required for XP_EHID
+Opens all switch guards (black/red). Basically required for XP_EHID. Not required for SimVim users.
 	
 #### lockControls.lua
 Disables all primary flight controls (Elevator, Ailerons, Rudder) when the autopilot is active.
