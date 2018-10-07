@@ -52,7 +52,6 @@
 10B82108;laminar/B738/annunciator/source_off2
 10B82101;laminar/B738/annunciator/drive1
 10B82103;laminar/B738/annunciator/drive2
-10B82101;laminar/B738/annunciator/ground_power_avail
 10B82102;laminar/B738/annunciator/standby_pwr_off
 10B82404;laminar/B738/annunciator/ground_power_avail
 //Hydraulic
