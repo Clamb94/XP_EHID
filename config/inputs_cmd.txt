@@ -70,10 +70,10 @@
 40404003;1;laminar/B738/push_button/capt_six_pack;begin
 40404003;0;laminar/B738/push_button/capt_six_pack;end
 //FO
-40404001;1;laminar/B738/push_button/master_caution2;once
-40404002;1;laminar/B738/push_button/fire_bell_light2;once
-40404003;1;laminar/B738/push_button/fo_six_pack;begin
-40404003;0;laminar/B738/push_button/fo_six_pack;end
+40504001;1;laminar/B738/push_button/master_caution2;once
+40504002;1;laminar/B738/push_button/fire_bell_light2;once
+40504003;1;laminar/B738/push_button/fo_six_pack;begin
+40504003;0;laminar/B738/push_button/fo_six_pack;end
 //Bat
 10C01201;0;sim/electrical/battery_1_off;once
 10C01201;0;sim/electrical/battery_2_off;once
