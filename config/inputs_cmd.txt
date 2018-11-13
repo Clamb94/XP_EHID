@@ -150,6 +150,14 @@
 10D02301;0;laminar/B738/toggle_switch/crossfeed_valve_on;once
 10D02301;1;laminar/B738/toggle_switch/crossfeed_valve_off;once
 10D02301;2;laminar/B738/toggle_switch/crossfeed_valve_on;once
+//TCAS Test
+30402601;0;lua/atc/transponder_test;once
+30402601;0;laminar/B738/knob/transponder_mode_dn;begin
+30402601;1;laminar/B738/knob/transponder_mode_dn;end
+30402601;2;laminar/B738/knob/transponder_mode_dn;end
+30402601;3;laminar/B738/knob/transponder_mode_dn;end
+30402601;4;laminar/B738/knob/transponder_mode_dn;end
+30402601;5;laminar/B738/knob/transponder_mode_dn;end
 //LuaCommands--------------------------------------------------------------------
 10E01301;2;lua/nav/VHF_BOTH1;once
 10E01301;1;lua/nav/VHF_NORM;once
@@ -258,7 +266,6 @@
 50901301;0;lua/misc/light_dim;once
 50901301;1;lua/misc/light_norm;once
 50901301;2;lua/misc/light_test;once
-30402601;0;lua/atc/transponder_test;once
 30402601;1;lua/atc/transponder_stdby;once
 30402601;2;lua/atc/transponder_alt;once
 30402601;3;lua/atc/transponder_ta;once
