@@ -40,18 +40,14 @@ Setup:
 	
 ## FlyWithLua Scripts
 
-I've included some useful FWL Scripts for homecockpits. Some are required for XP_EHID, some are not.
-Basically all of them can be used without XP_EHID as well.
+These two Flywithlua scripts are required for a smooth operation of XP_EHID.
+Here you can find some more useful FWL Scripts for homecockpit builders: https://github.com/Clamb94/FlyWithLua-Scripts/
 
 #### ZiboCommands.lua
-Required for use of XP_EHID. Can be used with other programs which execute X-Plane commands as well. Not required for SimVim users.
-	
-#### DomeLightOn.lua
-Automatically turns on the dome light
+Required for use of XP_EHID. Can be used with other programs which execute X-Plane commands as well.
 	
 #### OpenGuards.lua
-Opens all switch guards (black/red). Basically required for XP_EHID. Not required for SimVim users.
+Opens all switch guards (black/red). Basically required for XP_EHID.
 	
-#### lockControls.lua
-Disables all primary flight controls (Elevator, Ailerons, Rudder) when the autopilot is active.
+
 
