@@ -46,17 +46,23 @@
 30403004;-1;sim/transponder/transponder_ones_down;once
 30404001;1;laminar/B738/push_button/transponder_ident_dn;once
 //CPT AFDS
-50204001;1;laminar/B738/push_button/ap_light_pilot;once
-50204002;1;laminar/B738/push_button/at_light_pilot;once
-50204003;1;laminar/B738/push_button/fms_light_pilot;once
+50204001;1;laminar/B738/push_button/ap_light_pilot;begin
+50204001;0;laminar/B738/push_button/ap_light_pilot;end
+50204002;1;laminar/B738/push_button/at_light_pilot;begin
+50204002;0;laminar/B738/push_button/at_light_pilot;end
+50204003;1;laminar/B738/push_button/fms_light_pilot;begin
+50204003;0;laminar/B738/push_button/fms_light_pilot;end
 50201301;2;laminar/B738/toggle_switch/ap_disconnect_test1_up;begin
 50201301;1;laminar/B738/toggle_switch/ap_disconnect_test1_up;end
 50201301;0;laminar/B738/toggle_switch/ap_disconnect_test1_dn;begin
 50201301;1;laminar/B738/toggle_switch/ap_disconnect_test1_dn;end
 //FO AFDS
-50304001;1;laminar/B738/push_button/ap_light_fo;once
-50304002;1;laminar/B738/push_button/at_light_fo;once
-50304003;1;laminar/B738/push_button/fms_light_fo;once
+50304001;1;laminar/B738/push_button/ap_light_fo;begin
+50304001;0;laminar/B738/push_button/ap_light_fo;end
+50304002;1;laminar/B738/push_button/at_light_fo;begin
+50304002;0;laminar/B738/push_button/at_light_fo;end
+50304003;1;laminar/B738/push_button/fms_light_fo;begin
+50304003;0;laminar/B738/push_button/fms_light_fo;end
 50301301;2;laminar/B738/toggle_switch/ap_disconnect_test1_up;begin
 50301301;1;laminar/B738/toggle_switch/ap_disconnect_test1_up;end
 50301301;0;laminar/B738/toggle_switch/ap_disconnect_test1_dn;begin
