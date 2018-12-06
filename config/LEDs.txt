@@ -132,3 +132,11 @@
 40582104;laminar/B738/annunciator/six_pack_eng
 40582105;laminar/B738/annunciator/six_pack_overhead
 40582106;laminar/B738/annunciator/six_pack_air_cond
+//CPT_AFDS
+50282202;laminar/B738/annunciator/ap_disconnect1
+50282204;laminar/B738/annunciator/at_disconnect1
+50282105;laminar/B738/annunciator/at_fms_disconnect1
+//FO_AFDS
+50382202;laminar/B738/annunciator/ap_disconnect1
+50382204;laminar/B738/annunciator/at_disconnect1
+50382105;laminar/B738/annunciator/at_fms_disconnect1
