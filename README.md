@@ -28,12 +28,30 @@ Setup:
 4. Run ExtPlane_EHID.exe
 	- you should see every input/output in the monitor.
 	
-	
+### Configuration
+config/settings.cfg contains some settings which can be changed by the user.
+Open it with an editor of your choise, I recommend Notepad++.
+There is always one or two lines description followed by a value. Simply modify the value and save the file.
+Take care that there are no spaces (" ") behind or in front of the values
+For now, the following parameters can be changed:
+
+##### X-Plane PC IP:
+ IP Adress of the PC running X-Plane. Default: 127.0.0.1
+ 
+##### Display / Annunciator brightness
+ You can change the brightness of your Displays (COMM, NAV, ADF, ATC, FLT/LAND ALT).
+ Range: 0 (very dim) - 255 (very bright)
+ "BRIGHT" is the default setting with the "LIGHTS" switch on the MIP in the "BRT" position and AC power available.
+ "DIM" is the brightness value with the "LIGHTS" switch in the "DIM" position
+ 
+##### //annunciator+display brightness at 24VDC compared to 28VDC in % (0-100)
+ When the BAT BUS voltage drops from 28V (AC Power on) to 24V (BAT ONLY), the annunciator and display brightness will decrease. 
+ This percentage sets by how much. 
+
+		
 ### Todo
 
 - Fire Handles
-- Elec Panel
-- Power Management (Turning off displays etc.)
 - Background brightness control
 - Aft overhead (I don't own a cockpitsonic AFT overhead, please open an issue when needed)
 
