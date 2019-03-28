@@ -436,6 +436,20 @@ inc_cmd[x] = "laminar/B738/switch/land_lights_ret_right_dn"
 dec_cmd[x] = "laminar/B738/switch/land_lights_ret_right_up"
 
 x = x + 1
+sw_dref[x] = "laminar/B738/switch/land_lights_left_pos"
+cmd[x][0] = "lua/lights/land_L_off"
+cmd[x][1] = "lua/lights/land_L_on"
+inc_cmd[x] = "laminar/B738/switch/land_lights_left" 
+dec_cmd[x] = "laminar/B738/switch/land_lights_left"
+
+x = x + 1
+sw_dref[x] = "laminar/B738/switch/land_lights_right_pos"
+cmd[x][0] = "lua/lights/land_R_off"
+cmd[x][1] = "lua/lights/land_R_on"
+inc_cmd[x] = "laminar/B738/switch/land_lights_right" 
+dec_cmd[x] = "laminar/B738/switch/land_lights_right"
+
+x = x + 1
 sw_dref[x] = "laminar/B738/toggle_switch/taxi_light_brightness_pos"
 cmd[x][0] = "lua/lights/taxi_off"
 cmd[x][2] = "lua/lights/taxi_on"
