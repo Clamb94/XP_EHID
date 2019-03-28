@@ -311,6 +311,10 @@
 11301201;1;lua/lights/land_ret_L_on;once
 11301202;0;lua/lights/land_ret_R_in;once
 11301202;1;lua/lights/land_ret_R_on;once
+11301203;0;lua/lights/land_L_off;once
+11301203;1;lua/lights/land_L_on;once
+11301204;0;lua/lights/land_R_off;once
+11301204;1;lua/lights/land_R_on;once
 11301207;0;lua/lights/taxi_off;once
 11301207;1;lua/lights/taxi_on;once
 11301309;0;lua/lights/pos_strobe;once
