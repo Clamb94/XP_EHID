@@ -140,3 +140,5 @@
 50382202;laminar/B738/annunciator/ap_disconnect1
 50382204;laminar/B738/annunciator/at_disconnect1
 50382105;laminar/B738/annunciator/at_fms_disconnect1
+//TQ
+30882201;laminar/B738/annunciator/parking_brake
