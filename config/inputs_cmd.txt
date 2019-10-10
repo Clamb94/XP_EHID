@@ -175,6 +175,14 @@
 30901301;1;sim/flight_controls/aileron_trim_left;end
 30901301;1;sim/flight_controls/aileron_trim_right;end
 30901301;2;sim/flight_controls/aileron_trim_right;begin
+//TQ
+30801201;1;laminar/B738/engine/mixture1_idle;once
+30801201;0;laminar/B738/engine/mixture1_cutoff;once
+30801202;1;laminar/B738/engine/mixture2_idle;once
+30801202;0;laminar/B738/engine/mixture2_cutoff;once
+30804001;1;laminar/B738/autopilot/left_toga_press;once
+30804002;1;laminar/B738/autopilot/right_at_dis_press;once
+
 //LuaCommands--------------------------------------------------------------------
 10E01301;2;lua/nav/VHF_BOTH1;once
 10E01301;1;lua/nav/VHF_NORM;once
