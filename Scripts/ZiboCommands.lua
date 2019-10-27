@@ -478,6 +478,52 @@ cmd[x][1] = "lua/control/alt_flaps_ctrl_down"
 inc_cmd[x] = "laminar/B738/toggle_switch/alt_flaps_ctrl_dn" 
 dec_cmd[x] = "laminar/B738/toggle_switch/alt_flaps_ctrl_up"
 
+x = x + 1
+sw_dref[x] = "laminar/B738/fire/apu/ext_switch/pos_arm"
+cmd[x][0] = "lua/control/apu_fire_sw_in"
+cmd[x][1] = "lua/control/apu_fire_sw_pull"
+inc_cmd[x] = "laminar/B738/fire/apu/ext_switch_arm" 
+dec_cmd[x] = "laminar/B738/fire/apu/ext_switch_arm"
+
+x = x + 1
+sw_dref[x] = "laminar/B738/fire/apu/ext_switch/pos_disch"
+cmd[x][-1] = "lua/control/apu_fire_sw_L"
+cmd[x][0] = "lua/control/apu_fire_sw_C"
+cmd[x][1] = "lua/control/apu_fire_sw_R"
+inc_cmd[x] = "laminar/B738/fire/apu/ext_switch_R"
+dec_cmd[x] = "laminar/B738/fire/apu/ext_switch_L"
+
+x = x + 1
+sw_dref[x] = "laminar/B738/fire/engine01/ext_switch/pos_arm"
+cmd[x][0] = "lua/control/eng1_fire_sw_in"
+cmd[x][1] = "lua/control/eng1_fire_sw_pull"
+inc_cmd[x] = "laminar/B738/fire/engine01/ext_switch_arm" 
+dec_cmd[x] = "laminar/B738/fire/engine01/ext_switch_arm"
+
+x = x + 1
+sw_dref[x] = "laminar/B738/fire/engine01/ext_switch/pos_disch"
+cmd[x][-1] = "lua/control/eng1_fire_sw_L"
+cmd[x][0] = "lua/control/eng1_fire_sw_C"
+cmd[x][1] = "lua/control/eng1_fire_sw_R"
+inc_cmd[x] = "laminar/B738/fire/engine01/ext_switch_R"
+dec_cmd[x] = "laminar/B738/fire/engine01/ext_switch_L"
+
+x = x + 1
+sw_dref[x] = "laminar/B738/fire/engine02/ext_switch/pos_arm"
+cmd[x][0] = "lua/control/eng2_fire_sw_in"
+cmd[x][1] = "lua/control/eng2_fire_sw_pull"
+inc_cmd[x] = "laminar/B738/fire/engine02/ext_switch_arm" 
+dec_cmd[x] = "laminar/B738/fire/engine02/ext_switch_arm"
+
+x = x + 1
+sw_dref[x] = "laminar/B738/fire/engine02/ext_switch/pos_disch"
+cmd[x][-1] = "lua/control/eng2_fire_sw_L"
+cmd[x][0] = "lua/control/eng2_fire_sw_C"
+cmd[x][1] = "lua/control/eng2_fire_sw_R"
+inc_cmd[x] = "laminar/B738/fire/engine02/ext_switch_R"
+dec_cmd[x] = "laminar/B738/fire/engine02/ext_switch_L"
+
+
 --[[
 x = x + 1
 sw_dref[x] = ""
