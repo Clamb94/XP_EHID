@@ -51,7 +51,6 @@ For now, the following parameters can be changed:
 		
 ### Todo
 
-- Fire Handles
 - Background brightness control
 - Aft overhead (I don't own a cockpitsonic AFT overhead, please open an issue when needed)
 
