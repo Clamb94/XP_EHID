@@ -75,6 +75,30 @@ inc_cmd[x] = "laminar/B738/autopilot/ife_pass_seat_toggle"
 dec_cmd[x] = "laminar/B738/autopilot/ife_pass_seat_toggle"
 
 x = x + 1
+sw_dref[x] = "laminar/B738/knob/ac_power"
+cmd[x][0] = "lua/elec/ac_knob_0"
+cmd[x][1] = "lua/elec/ac_knob_1"
+cmd[x][2] = "lua/elec/ac_knob_2"
+cmd[x][3] = "lua/elec/ac_knob_3"
+cmd[x][4] = "lua/elec/ac_knob_4"
+cmd[x][5] = "lua/elec/ac_knob_5"
+cmd[x][6] = "lua/elec/ac_knob_6"
+inc_cmd[x] = "laminar/B738/knob/ac_power_up" 
+dec_cmd[x] = "laminar/B738/knob/ac_power_dn"
+
+x = x + 1
+sw_dref[x] = "laminar/B738/knob/dc_power"
+cmd[x][0] = "lua/elec/dc_knob_0"
+cmd[x][1] = "lua/elec/dc_knob_1"
+cmd[x][2] = "lua/elec/dc_knob_2"
+cmd[x][3] = "lua/elec/dc_knob_3"
+cmd[x][4] = "lua/elec/dc_knob_4"
+cmd[x][5] = "lua/elec/dc_knob_5"
+cmd[x][6] = "lua/elec/dc_knob_6"
+inc_cmd[x] = "laminar/B738/knob/dc_power_up" 
+dec_cmd[x] = "laminar/B738/knob/dc_power_dn"
+
+x = x + 1
 sw_dref[x] = "laminar/B738/ice/window_heat_l_side_pos"
 cmd[x][0] = "lua/ice/window_heat_l_side_off"
 cmd[x][1] = "lua/ice/window_heat_l_side_on"
@@ -410,6 +434,20 @@ cmd[x][1] = "lua/lights/land_ret_R_out"
 cmd[x][2] = "lua/lights/land_ret_R_on"
 inc_cmd[x] = "laminar/B738/switch/land_lights_ret_right_dn" 
 dec_cmd[x] = "laminar/B738/switch/land_lights_ret_right_up"
+
+x = x + 1
+sw_dref[x] = "laminar/B738/switch/land_lights_left_pos"
+cmd[x][0] = "lua/lights/land_L_off"
+cmd[x][1] = "lua/lights/land_L_on"
+inc_cmd[x] = "laminar/B738/switch/land_lights_left" 
+dec_cmd[x] = "laminar/B738/switch/land_lights_left"
+
+x = x + 1
+sw_dref[x] = "laminar/B738/switch/land_lights_right_pos"
+cmd[x][0] = "lua/lights/land_R_off"
+cmd[x][1] = "lua/lights/land_R_on"
+inc_cmd[x] = "laminar/B738/switch/land_lights_right" 
+dec_cmd[x] = "laminar/B738/switch/land_lights_right"
 
 x = x + 1
 sw_dref[x] = "laminar/B738/toggle_switch/taxi_light_brightness_pos"
