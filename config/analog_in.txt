@@ -1,0 +1,21 @@
+//EHID_ID;EHID_min;EHID_max;X-Plane Dataref;Array Number/cmd;Dref_min,Dref_max
+//Dataref Array Number = cmd = Send as command; Emptry = No Array; 0 = Throttle 1, 1 = Throttle 2 for example
+//Throttle 1
+30805303;0;32767;sim/cockpit2/engine/actuators/throttle_ratio;0;0;1
+//Throttle 2
+30805304;0;32767;sim/cockpit2/engine/actuators/throttle_ratio;1;0;1
+//Reverser 1
+//Reverser 2
+//Flaps
+30805305;0;2000;laminar/B738/push_button/flaps_0;once;0;0
+30805305;3000;5000;laminar/B738/push_button/flaps_1;once;0;0
+30805305;7000;9000;laminar/B738/push_button/flaps_2;once;0;0
+30805305;11000;13000;laminar/B738/push_button/flaps_5;once;0;0
+30805305;15000;17500;laminar/B738/push_button/flaps_10;once;0;0
+30805305;19000;21000;laminar/B738/push_button/flaps_15;once;0;0
+30805305;23000;26000;laminar/B738/push_button/flaps_25;once;0;0
+30805305;27000;30000;laminar/B738/push_button/flaps_30;once;0;0
+30805305;31000;34000;laminar/B738/push_button/flaps_40;once;0;0
+//Speedbrakes
+30805306;0;4780;sim/cockpit2/engine/actuators/throttle_ratio;;0;0.0889
+30805306;0;32767;sim/cockpit2/engine/actuators/throttle_ratio;;0.0889;1
