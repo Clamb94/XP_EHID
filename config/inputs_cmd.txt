@@ -81,10 +81,8 @@
 40504003;1;laminar/B738/push_button/fo_six_pack;begin
 40504003;0;laminar/B738/push_button/fo_six_pack;end
 //Bat
-10C01201;0;sim/electrical/battery_1_off;once
-10C01201;0;sim/electrical/battery_2_off;once
-10C01201;1;sim/electrical/battery_1_on;once
-10C01201;1;sim/electrical/battery_2_on;once
+10C01201;0;laminar/B738/switch/battery_up;once
+10C01201;1;laminar/B738/switch/battery_dn;once
 //Generators
 10B01306;0;laminar/B738/toggle_switch/gen1_up;once
 10B01306;2;laminar/B738/toggle_switch/gen1_dn;once
