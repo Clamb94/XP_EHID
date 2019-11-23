@@ -561,6 +561,15 @@ cmd[x][1] = "lua/control/eng2_fire_sw_R"
 inc_cmd[x] = "laminar/B738/fire/engine02/ext_switch_R"
 dec_cmd[x] = "laminar/B738/fire/engine02/ext_switch_L"
 
+x = x + 1
+sw_dref[x] = "laminar/B738/parking_brake_pos"
+cmd[x][0] = "lua/parkBrake_off"
+cmd[x][1] = "lua/parkBrake_on"
+inc_cmd[x] = "sim/flight_controls/brakes_toggle_max"
+dec_cmd[x] = "sim/flight_controls/brakes_toggle_max"
+
+
+
 
 --[[
 x = x + 1
