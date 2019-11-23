@@ -5,7 +5,9 @@
 //Throttle 2
 30805304;0;32767;sim/cockpit2/engine/actuators/throttle_ratio;1;0;1
 //Reverser 1
+30805301;1000;32000;laminar/B738/flt_ctrls/reverse_lever1;;0;1
 //Reverser 2
+30805302;1000;32000;laminar/B738/flt_ctrls/reverse_lever2;;0;1
 //Flaps
 30805305;0;2000;laminar/B738/push_button/flaps_0;once;0;0
 30805305;3000;5000;laminar/B738/push_button/flaps_1;once;0;0
