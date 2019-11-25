@@ -5,9 +5,9 @@
 //Throttle 2
 30805304;0;32767;sim/cockpit2/engine/actuators/throttle_ratio;1;0;1
 //Reverser 1
-30805301;1000;32000;laminar/B738/flt_ctrls/reverse_lever1;;0;1
+30805301;4000;32000;laminar/B738/flt_ctrls/reverse_lever1;;0;1
 //Reverser 2
-30805302;1000;32000;laminar/B738/flt_ctrls/reverse_lever2;;0;1
+30805302;4000;32000;laminar/B738/flt_ctrls/reverse_lever2;;0;1
 //Flaps
 30805305;0;2000;laminar/B738/push_button/flaps_0;once;0;0
 30805305;3000;5000;laminar/B738/push_button/flaps_1;once;0;0
@@ -19,5 +19,6 @@
 30805305;27000;30000;laminar/B738/push_button/flaps_30;once;0;0
 30805305;31000;34000;laminar/B738/push_button/flaps_40;once;0;0
 //Speedbrakes
-30805306;0;4780;laminar/B738/flt_ctrls/speedbrake_lever;;0;0.0889
+30805306;0;2000;laminar/B738/flt_ctrls/speedbrake_lever;;0;0
+30805306;2001;5000;laminar/B738/flt_ctrls/speedbrake_lever;;0.0889;0.0889
 30805306;5100;32767;laminar/B738/flt_ctrls/speedbrake_lever;;0.0889;1
