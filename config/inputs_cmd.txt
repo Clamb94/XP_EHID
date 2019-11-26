@@ -371,5 +371,5 @@
 30A01309;0;lua/control/eng2_fire_sw_L;once
 30A01309;1;lua/control/eng2_fire_sw_C;once
 30A01309;2;lua/control/eng2_fire_sw_R;once
-30801203;0;lua/parkBrake_on;once
+30801203;1;lua/parkBrake_on;once
 30801203;0;lua/parkBrake_off;once
