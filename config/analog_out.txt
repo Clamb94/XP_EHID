@@ -21,12 +21,14 @@
 //power
 30889001;0;255;laminar/B738/autopilot/lock_throttle;1;0;1
 //position
-30884201;2700;30050;sim/cockpit2/engine/actuators/throttle_ratio_all;0.02;0;1
-30884202;2700;30050;sim/cockpit2/engine/actuators/throttle_ratio_all;0.02;0;1
+30884201;2700;30050;sim/cockpit2/engine/actuators/throttle_ratio_all;0.01;0;1
+30884202;2700;30050;sim/cockpit2/engine/actuators/throttle_ratio_all;0.01;0;1
+
 //TRIM power
-30889004;0;0;sim/flightmodel/controls/elv_trim;0.0005;0;0
-30889004;255;255;sim/flightmodel/controls/elv_trim;0.0005;0.0001;0.1
-30889004;255;255;sim/flightmodel/controls/elv_trim;0.0005;-0.1;-0.0001
+//TODO, trim isn't working properly (yet)
+//30889003;0;0;sim/flightmodel/controls/elv_trim;0.0005;0;0
+//30889003;255;255;sim/flightmodel/controls/elv_trim;0.0005;0.0001;0.1
+//30889003;255;255;sim/flightmodel/controls/elv_trim;0.0005;-0.1;-0.0001
 //TRIM direction
-30884204;0;0;sim/flightmodel/controls/elv_trim;0.0005;-0.001;-0.0001
-30884204;255;255;sim/flightmodel/controls/elv_trim;0.0005;0.0001;0.001
+//30884101;0;0;sim/flightmodel/controls/elv_trim;0.0001;-0.001;-0.00001
+//30884101;255;255;sim/flightmodel/controls/elv_trim;0.0001;0.00001;0.001
