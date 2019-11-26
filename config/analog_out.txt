@@ -19,10 +19,10 @@
 10381001;143;450;laminar/B738/zone_temp;1;20;60
 //THRUST LEVER MOTORs
 //power
-30889001;0;255;laminar/B738/autopilot/lock_throttle;0;1
+30889001;0;255;laminar/B738/autopilot/lock_throttle;1;0;1
 //position
-30884201;2700;30050;sim/cockpit2/engine/actuators/throttle_ratio_all;0;1
-30884202;2700;30050;sim/cockpit2/engine/actuators/throttle_ratio_all;0;1
+30884201;2700;30050;sim/cockpit2/engine/actuators/throttle_ratio_all;0.02;0;1
+30884202;2700;30050;sim/cockpit2/engine/actuators/throttle_ratio_all;0.02;0;1
 //TRIM power
 30889004;0;0;sim/flightmodel/controls/elv_trim;0.0005;0;0
 30889004;255;255;sim/flightmodel/controls/elv_trim;0.0005;0.0001;0.1
