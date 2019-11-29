@@ -21,4 +21,4 @@
 //Speedbrakes
 30805306;0;2000;laminar/B738/flt_ctrls/speedbrake_lever;;0;0
 30805306;2001;5000;laminar/B738/flt_ctrls/speedbrake_lever;;0.0889;0.0889
-30805306;5100;32767;laminar/B738/flt_ctrls/speedbrake_lever;;0.0889;1
+30805306;5100;32767;laminar/B738/flt_ctrls/speedbrake_lever;;0.1;1
