@@ -1,6 +1,10 @@
 # XP_EHID
 X-Plane &lt;-> EHID Interface
 
+NON-COMMERCIAL, HOME USE ONLY. 
+CONTACT ME FOR COMMERCIAL(NON HOME) USE.
+USE AT YOUR OWN RISK.
+
 This software allows connection of EHID compatible hardware (mainly Cockpitsonic) with X-Plane.
 I'm only using with Cockpitsonic 737 panels and the Zibo737, but it should work with all panels and X-Plane aircrafts (some scripting required)
 
@@ -14,7 +18,7 @@ Requirements:
 
 Tested with:
 - X-Plane 11.26
-- Zibo 737 3.30h
+- Zibo 737 3.36
 
 Setup:
 1. Install EHID and EHID_XML_B737. Enter the license information you got from the EHID developers.
