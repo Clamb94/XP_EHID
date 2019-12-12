@@ -15,6 +15,7 @@ Requirements:
 - [Zibo737](https://forums.x-plane.org/index.php?/forums/topic/138974-b737-800x-zibo-mod-info-installation-download-links/)
 - [EHID + EHID XML B737 + get a EHID License](http://www.uweschneider.de/en/EHID_endusers.php)
 - Cockpitsonic (EHID) hardware
+- [C++ Redistributalbe 2015](https://www.microsoft.com/de-de/download/details.aspx?id=48145&irgwc=1&OCID=AID2000142_aff_7806_1246483&tduid=(ir__6yikbsc9v9kftlhekk0sohz3xm2xgf0wsllpmwdh00)(7806)(1246483)(%28f800cddac127e445d980a1b9fba3b75e%29%2881561%29%282136356%29%28%29%28%29)(f800cddac127e445d980a1b9fba3b75e)&irclickid=_6yikbsc9v9kftlhekk0sohz3xm2xgf0wsllpmwdh00)
 
 Tested with:
 - X-Plane 11.26
